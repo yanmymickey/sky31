@@ -1,0 +1,141 @@
+@@font-face {
+	font-family:zhongyuan;
+	src: url('../font/yuan.ttf');
+}
+@font-face {
+	font-family:DFPOP3;
+	src: url('../font/DFPOP3.ttf');
+}
+#header{
+	width: 100%;
+	height: 80px;
+	padding-top: 15px;
+	background-color: #F9F9F9;
+	font-family:zhongyuan ;
+	position: relative;
+	font-size: 25px;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+#header span:nth-child(1){
+	font-size:50px;
+	font-family: DFPOP3;
+	color: #e34039;
+	margin-left: 100px;
+}
+@keyframes listco{
+	from{color: #000000;}
+	to{color: #e34039;}
+}
+.menu{
+	margin-left:40px;
+	cursor: pointer;
+}
+.menu a:hover{
+	color: #e34039;
+	animation: listco 0.2s;
+	text-decoration: underline;
+}
+#header span:nth-child(2){
+	margin-left: 50px;
+}
+#header span:nth-child(2):hover{
+	color: #e34039;
+	animation: listco 0.2s;
+	text-decoration: underline;
+}
+#header span:nth-child(3):hover{
+	color: #e34039;
+	animation: listco 0.2s;
+	text-decoration: underline;
+}
+#search{
+	margin-left: 150px;
+	font-size: 20px;
+}
+#search img{
+	float: left;
+	position: absolute;
+	left: 950px;
+	top: 35px;
+}
+#footer{
+	position: relative;
+	float: left;
+	width: 1300px;
+	height: 300px;
+	color: #666666;
+	background: #000000;
+}
+#footer_top{
+	width: 1000px;
+	margin: 0 auto;
+	color: #666666;
+	position: relative;
+	height: 170px;
+	border-bottom: 1px #666666 solid;
+}
+#footer_top span:nth-child(1){
+	font-size:60px;
+	font-family: DFPOP3;
+	position: absolute;
+	top: 30px;
+	color: #e34039;
+	left: 60px;
+}
+#footer_top span:nth-child(2){
+	font-size: 20px;
+	position: absolute;
+	left: 250px;
+	color:#ffffff;
+	top: 30px;
+}
+#footer_top span:nth-child(3){
+	font-size: 20px;
+	position: absolute;
+	left: 250px;
+	top: 58px;
+	color:#ffffff;
+}
+#footer_top span:nth-child(5){
+	font-size: 15px;
+	position: absolute;
+	left: 540px;
+	top: 135px;
+}
+#footer_top span:nth-child(7){
+	font-size: 15px;
+	position: absolute;
+	left: 660px;
+	top: 135px;
+}
+#footer_top span:nth-child(9){
+	font-size: 15px;
+	position: absolute;
+	left: 805px;
+	top: 135px;
+}
+#wechat{
+	position: absolute;
+	left: 530px;
+	top: 30px;
+}
+#phone{
+	position: absolute;
+	left: 650px;
+	top: 30px;
+}
+#weibo{
+	position: absolute;
+	left: 770px;
+	top: 30px;
+}
+#footer_bottom pre{
+	text-align: center;
+	margin-top: 20px;
+}
+#footer_bottom pre:nth-child(2){
+	font-size: 12px;
+}

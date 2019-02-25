@@ -1,0 +1,87 @@
+	* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			
+			
+			#Carousel_map_box {
+				width: 1300px;
+				height: 400px;
+				overflow: hidden;
+				position: relative;
+			}
+			
+			#Carousel_map {
+				width: 9100px;
+				height: 400px;
+				position: absolute;
+				z-index: 1;
+			}
+			
+			#Carousel_map img {
+				float: left;
+				width: 1300px;
+				height: 400px;
+			}
+			
+			#buttons {
+				position: absolute;
+				height: 10px;
+				width: 100px;
+				z-index: 2;
+				bottom: 20px;
+				left: 600px;
+			}
+			
+			#buttons span {
+				cursor: pointer;
+				float: left;
+				border: 1px solid #fff;
+				width: 10px;
+				height: 10px;
+				border-radius: 50%;
+				background: #333;
+				margin-right: 5px;
+			}
+			
+			#buttons .on {
+				background: red;
+			}
+			
+			.arrow {
+				cursor: pointer;
+				display: none;
+				line-height: 72px;
+				text-align: center;
+				font-size: 36px;
+				font-weight: bold;
+				border-radius: 10px;
+				width: 50px;
+				height: 80px;
+				position: absolute;
+				z-index: 2;
+				top: 180px;
+				background-color: RGBA(0, 0, 0, .3);
+				color: #fff;
+			}
+			
+			/* .arrow:hover {
+				background-color: RGBA(0, 0, 0, .7);
+			} */
+			
+			#Carousel_map_box:hover .arrow {
+				display: block;
+			}
+			
+			#up {
+				left: 20px;
+			}
+			
+			#next {
+				right: 20px;
+			}

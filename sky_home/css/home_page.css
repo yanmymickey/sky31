@@ -1,0 +1,211 @@
+@@font-face {
+	font-family: yuan;
+	src: url('../font/yuan.ttf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: yuan;
+}
+
+#home_page {
+	background: #fae8c8;
+	width: 1300px;
+	margin: 0 auto;
+	position: relative;
+}
+#Carousel_map_box{
+	border-radius: 5px;
+}
+#Dayfood_Title {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	position: relative;
+}
+
+#Dayfood_box {
+	position: relative;
+	width: 980px;
+	overflow: hidden;
+	margin: 30px auto;
+	border-radius: 10px;
+}
+#food_menu_title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	position: relative;
+}
+#food_menu{
+	background-color:#fae8c8 ;
+	float: left;
+	position: relative;
+	margin-bottom: 30px;
+}
+#food_menu div:nth-child(1){
+	margin-top: 50px;
+	margin-left: 215px;
+}
+#food_menu div:nth-child(2n+1):hover{
+	margin-top: 45px;
+	margin-bottom: 5px;
+	box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+}
+#food_menu div:nth-child(2){
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#food_menu div:nth-child(2n):hover{
+	margin-top: 45px;
+	margin-bottom: 5px;
+	box-shadow: 0 12px 24px 0 rgba(28,31,33,.1);
+}
+#food_menu div:nth-child(3){
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#food_menu div:nth-child(4){
+	margin-top: 50px;
+	margin-left: 20px;
+	
+}
+#food_menu div:nth-child(5){
+	margin-top: 50px;
+	margin-left: 215px;
+
+}
+#food_menu div:nth-child(6){
+	margin-top: 50px;
+	margin-left: 20px;
+
+}
+#food_menu div:nth-child(7){
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#food_menu div:nth-child(8){
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#more_top{
+	margin-top:80px ;
+	margin-left: 50px;
+}
+#more{
+	margin-left: 50px;
+	margin-top: 25px;
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+@keyframes listco{
+	from{color: #000000;}
+	to{color: #e34039;}
+}
+#more span :hover{
+	color: #e34039;
+	animation: listco 0.2s;
+	text-decoration: underline;
+}
+.food_box{
+	width: 206px;
+	height: 350px;
+	background-color: #F9F9F9;
+	font-size: 15px;
+	position: relative;
+	float: left;
+}
+.food_box img{
+	width: 206px;
+}
+.more_box{
+	width: 206px;
+	height: 350px;
+	background-color: #F9F9F9;
+	font-size: 15px;
+	position: relative;
+	float: left;
+}
+#more img{
+	margin-top: 1px;
+	margin-right: 10px;
+	float: left;
+	position: relative;
+}
+.food_name{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.food_info{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.author{
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+#culture_box_title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 100px;
+	position: relative;
+}
+#culture_box{
+	float: left;
+	position: relative;
+	width: 1300px;
+	height: 480px;
+	background-color: #fae8c8;
+}
+#culture_box div:nth-child(1){
+	margin-left: 215px;
+	margin-top: 30px;
+}
+#culture_box div:nth-child(2){
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#culture_box div:nth-child(3){
+	margin-left: 215px;
+	margin-top: 30px;
+}
+#culture_box div:nth-child(4){
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.news_box{
+	position: relative;
+	width: 435px;
+	height: 180px;
+	float: left;
+	background-color: #F9F9F9;
+}
+.news_box img{
+	float: left;
+	position: relative;
+}
+.news_box p{
+	float: left;
+	font-size: 16px;
+	margin-top: 20px;
+	padding-bottom: 16px;
+	padding-left: 10px;
+	width: 256px;
+	border-bottom: 1px solid #eeeeee ;
+}
+.news_box p:nth-child(4){
+	border-bottom:none ;
+}
+.news_box p:nth-child(2){
+	font-weight: 550;
+}
+.news_box span{
+	position: absolute;
+	padding: 5px;
+	left: 361px;
+	color: white;
+	background-color: #45a142;
+}

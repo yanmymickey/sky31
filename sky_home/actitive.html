@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/header_footer.css" />
+		<link rel="stylesheet" type="text/css" href="css/actitive_page.css"/>
+		<link rel="stylesheet" type="text/css" href="css/CarouselMap.css" />
+		<script src="js/CarouselMap.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<style type="text/css">
+			#gallery-wrapper {
+			position: relative;
+			max-width: 75%;
+			width: 75%;
+			margin:50px auto;
+			}
+			img.thumb {
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+			}
+			.white-panel {
+			position: absolute;
+			background: white;
+			border-radius: 5px;
+			box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+			padding: 10px;
+			}
+			.white-panel h1 {
+			font-size: 1em;
+			}
+			.white-panel h1 a {
+			color: #A92733;
+			}
+			.white-panel:hover {
+			box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+			margin-top: -5px;
+			-webkit-transition: all 0.3s ease-in-out;
+			-moz-transition: all 0.3s ease-in-out;
+			-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+			}
+			a{
+				color: #000000;
+			}
+		</style>
+		<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+		<script src="js/pinterest_grid.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#gallery-wrapper").pinterest_grid({
+					no_columns: 4,
+					padding_x: 10,
+					padding_y: 10,
+					margin_bottom: 50,
+					single_column_breakpoint: 700
+				});
+				
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div id="acitive_page">
+			<div id="header">
+				<span>食天下</span>
+				<span class="menu"><a href="index.html">首页</a></span>
+				<span class="menu"><a href="#food_menu_title">菜谱</a></span>
+				<span class="menu"><a href="#culture_box_title">健康</a></span>
+				<span class="menu"><a href="index.html">社区</a></span>
+				<span class="menu"><a href="video.html">视频</a></span>
+				<span class="menu"><a href="actitive.html">活动</a></span>
+				<span id="search"><img src="img/搜索%20(1).png"><span>登录</span> | <span>注册</span></span>
+			</div>
+			<div id="Carousel_map_box">
+				<div id="Carousel_map" style="left: -1300px;">
+					<img src="img/5.jpg" alt="1" />
+					<img src="img/1.jpg" alt="1" />
+					<img src="img/2.jpg" alt="2" />
+					<img src="img/3.jpg" alt="3" />
+					<img src="img/4.jpg" alt="4" />
+					<img src="img/5.jpg" alt="5" />
+					<img src="img/1.jpg" alt="5" />
+				</div>
+				<div id="buttons">
+					<span index="1" class="on"></span>
+					<span index="2"></span>
+					<span index="3"></span>
+					<span index="4"></span>
+					<span index="5"></span>
+				</div>
+				<a href="#" id="up" class="arrow">&lt;</a>
+				<a href="#" id="next" class="arrow">&gt;</a>
+			</div>
+			<div id="actitive_content">
+				<section id="gallery-wrapper">
+					<article class="white-panel">
+						<img src="img/QQ图片%20(17).jpg" class="thumb">
+						<img src="img/th%20(11)@0,5x.jpg" >
+						<p>大睿睿</p>
+						<img src="img/爱心.png" >
+						<span>74</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(15).jpg" class="thumb">
+						<img src="img/th%20(8)@0,5x.jpg" >
+						<p>lingda的日记</p>
+						<img src="img/爱心.png" >
+						<span>38</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(20).jpg" class="thumb">
+						<img src="img/th%20(5)@0,5x.jpg" >
+						<p>健康饮食小达人</p>
+						<img src="img/爱心.png" >
+						<span>22</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(18).jpg" class="thumb">
+						<img src="img/th%20(9)@0,5x.jpg" >
+						<p>是小仙女鸭</p>
+						<img src="img/爱心.png" >
+						<span>29</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(25).jpg" class="thumb">
+						<img src="img/th%20(14)@0,5x.jpg" >
+						<p>阿染</p>
+						<img src="img/爱心.png" >
+						<span>41</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(28).jpg" class="thumb">
+						<img src="img/th%20(14)@0,5x.jpg" >
+						<p>糖果子的小时光</p>
+						<img src="img/爱心.png" >
+						<span>62</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(22).jpg" class="thumb">
+						<img src="img/th%20(4)@0,5x.jpg" >
+						<p>土豆很好吃</p>
+						<img src="img/爱心.png" >
+						<span>18</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(16).jpg" class="thumb">
+						<img src="img/th%20(9)@0,5x.jpg" >
+						<p>大睿睿</p>
+						<img src="img/爱心.png" >
+						<span>26</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(13).jpg" class="thumb">
+						<img src="img/th%20(10)@0,5x.jpg" >
+						<p>yo yo</p>
+						<img src="img/爱心.png" >
+						<span>33</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(23).jpg" class="thumb">
+						<img src="img/th%20(10)@0,5x.jpg" >
+						<p>悠悠食记</p>
+						<img src="img/爱心.png" >
+						<span>44</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(24).jpg" class="thumb">
+						<img src="img/th%20(10)@0,5x.jpg" >
+						<p>是小仙女鸭</p>
+						<img src="img/爱心.png" >
+						<span>36</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(14).jpg" class="thumb">
+						<img src="img/th%20(6)@0,5x.jpg" >
+						<p>大头bb</p>
+						<img src="img/爱心.png" >
+						<span>52</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(21).jpg" class="thumb">
+						<img src="img/th%20(6)@0,5x.jpg" >
+						<p>大头bb</p>
+						<img src="img/爱心.png" >
+						<span>11</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(26).jpg" class="thumb">
+						<img src="img/th%20(5)@0,5x.jpg" >
+						<p>健康饮食小达人</p>
+						<img src="img/爱心.png" >
+						<span>68</span>
+					</article>
+					<article class="white-panel">
+						<img src="img/QQ图片%20(27).jpg" class="thumb">
+						<img src="img/th%20(10)@0,5x.jpg" >
+						<p>土豆很好吃</p>
+						<img src="img/爱心.png" >
+						<span>32</span>
+					</article>
+				</section>
+			</div>
+			<div id="check_more">查看更多</div>
+			<div id="footer">
+				<div id="footer_top">
+					<span>食天下</span>
+					<span>再也不为吃什么而烦恼</span>
+					<span>www.shitianxia.com</span>
+					<img src="img/QQ图片20190203161336.jpg" id="wechat">
+					<span>微信公众号</span>
+					<img src="img/QQ图片20190203161336.jpg" id="phone" >
+					<span>手机客户端</span>
+					<img src="img/QQ图片20190203161340.jpg" id="weibo">
+					<span>微博</span>
+				</div>
+				<div id="footer_bottom">
+					<pre>公司简介     关于我们     产品下载     加入我们     联系我们     商务合作     用户协议     网站地图     友情链接</pre>
+					<pre>京ICP备14030359号/   京公安网备11010802026928 Copyright    2003-2019 MEISHIJ CO.,LTD.</pre>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

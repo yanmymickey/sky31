@@ -1,0 +1,59 @@
+@@font-face {
+	font-family: yuan;
+	src: url('../font/yuan.ttf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: yuan;
+}
+
+#acitive_page {
+	background: #fae8c8;
+	width: 1300px;
+	margin: 0 auto;
+	position: relative;
+}
+#actitive_content{
+	float: left;
+	position: relative;
+	width: 100%;
+	background: #fae8c8;
+	display: flex;
+	flex-flow:wrap;
+	padding-bottom: 20px;
+}
+.white-panel img:nth-child(2){
+	width: 20px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.white-panel p{
+	float: left;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.white-panel img:nth-child(4){
+	float: left;
+	margin-left: 80px;
+	margin-top: 15px;
+}
+.white-panel span:nth-child(5){
+	font-size: 15px;
+	margin-left: 8px;
+	margin-top: 8px;
+	float: left;
+}
+#check_more{
+	font-size: 20px;
+	float: left;
+	color: #e86256;
+	padding-bottom: 20px;
+	position: relative;
+	background-color: #fae8c8;
+	text-align: center;
+	width: 100%;
+	cursor: pointer;
+}
